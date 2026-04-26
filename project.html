@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Portofolio | My Project</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #eeeeee;
+            margin: 0;
+        }
+
+        header {
+            background-color: #ffd3d9;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        nav {
+            background-color: #ffb6c1;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .container {
+            width: 90%;
+            margin: 20px auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .container h2 {
+            color: #de9ea7;
+            text-align: center;
+        }
+
+        .container p {
+            text-align: center;
+        }
+
+        /* GRID PROJECT (ALA GAME) */
+        .project-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 25px;
+            margin-top: 30px;
+        }
+
+        .project-card {
+            background-color: #ffb6c1;
+            border-radius: 15px;
+            overflow: hidden;
+            text-align: center;
+            transition: transform 0.3s;
+        }
+
+        .project-card:hover {
+            transform: scale(1.05);
+        }
+
+        .project-card img {
+            width: 100%;
+            height: 160px;
+            object-fit: cover;
+        }
+
+        .project-card a {
+            display: block;
+            padding: 15px;
+            text-decoration: none;
+            font-weight: bold;
+            color: #16a085;
+            background-color: #ffffff;
+        }
+
+        .project-card a:hover {
+            background-color: #de9ea7;
+            color: white;
+        }
+
+        footer {
+            background-color: #de9ea7;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>PORTOFOLIO NAMA LENGKAP 2 KATA</h1>
+    <p>Karya Nyata dari Proses Belajar</p>
+</header>
+
+<nav>
+    <a href="index.html">Beranda</a>
+    <a href="profil.html">Profil</a>
+    <a href="video.html">Video</a>
+    <a href="project.html">My Project</a>
+</nav>
+
+<div class="container">
+
+    <h2>My Project</h2>
+    <p>
+        <i>
+        Halaman ini menampilkan kumpulan proyek yang pernah saya buat.
+        Klik judul proyek untuk melihat hasil karya saya.
+        </i>
+    </p>
+
+    <div class="project-grid">
+
+        <!-- PROJECT 1 -->
+        <div class="project-card">
+            <img src="project1.jpg" alt="Project 1">
+            <a href="https://link-proyek-1.com" target="_blank">
+                Video Argumentasi
+            </a>
+        </div>
+
+        <!-- PROJECT 2 -->
+        <div class="project-card">
+            <img src="project2.jpg" alt="Project 2">
+            <a href="https://scratch.mit.edu/projects/1309259715" target="_blank">
+                Website Portofolio
+            </a>
+        </div>
+
+        <!-- PROJECT 3 -->
+        <div class="project-card">
+            <img src="https://i.pinimg.com/1200x/66/79/61/667961103e7365cd58cf0ecfd66f747e.jpg" alt="Project 3">
+            <a href="https://scratch.mit.edu/projects/1309259715" target="_blank">
+                Game Edukasi
+            </a>
+        </div>
+
+        <!-- PROJECT 4 -->
+        <div class="project-card">
+            <img src="project4.jpg" alt="Project 4">
+            <a href="https://link-proyek-4.com" target="_blank">
+                Proyek Lainnya
+            </a>
+        </div>
+
+    </div>
+
+</div>
+
+<footer>
+    <p>Ujian Praktik Terintegrasi | SMPIT Al Haraki | Siti Nurliana@2026</p>
+</footer>
+
+</body>
+</html>

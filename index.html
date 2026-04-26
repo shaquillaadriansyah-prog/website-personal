@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Portofolio ku | Beranda</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #eeeeee;
+            margin: 0;
+        }
+
+        header {
+            background-color: #ffd3d9;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        nav {
+            background-color: #de9ea7;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .container {
+            width: 90%;
+            margin: 20px auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        /* GRID UTAMA */
+        .content-grid {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 20px;
+        }
+
+        /* TEKS KIRI */
+        .content-text h2 {
+            color: #de9ea7;
+        }
+
+        .content-text p {
+            text-align: justify;
+        }
+
+        /* GRID GAMBAR KANAN */
+    .content-gallery {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 300px 300px;
+        gap: 0;
+        border-radius: 12px;
+        overflow: hidden;
+    }
+
+    .content-gallery img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+    }
+
+        footer {
+            background-color: #be868f;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+
+        /* RESPONSIVE (HP) */
+        @media (max-width: 768px) {
+            .content-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>PORTOFOLIO SHAQUILLA PUTRI ADRIANSYAH</h1>
+    <p>Karya Nyata dari Proses Belajar</p>
+</header>
+
+<nav>
+    <a href="index.html">Beranda</a>
+    <a href="profil.html">Profil</a>
+    <a href="video.html">Video</a>
+    <a href="project.html">My Project</a>
+</nav>
+
+<div class="container">
+
+    <div class="content-grid">
+
+        <!-- BAGIAN KIRI: TEKS (WAJIB DIISI SENDIRI) -->
+        <div class="content-text">
+
+            <h2>Selamat Datang di Website Portofolio saya!</h2>
+            <p>
+                Website ini merupakan media pendukung untuk menampilkan hasil
+                Ujian Praktik Terintegrasi. Konten utama pada website ini adalah
+                video broadcasting pembelajaran yang berisi penyampaian teks
+                argumentasi secara lisan.
+            </p>
+
+            <h2>Tentang Website Ini</h2>
+            <p>
+                Website ini merupakan website portofolio digital yang berisi
+                hasil karya dan pembelajaran saya selama mengikuti Ujian Praktik
+                Terintegrasi.
+            </p>
+
+            <h2>Tujuan Pembuatan Website</h2>
+            <p>
+                Tujuan pembuatan website ini adalah untuk menampilkan karya
+                yang telah saya buat serta melatih kemampuan saya dalam
+                membuat website sederhana menggunakan HTML.
+            </p>
+
+            <h2>Topik Argumentasi dan Alasan Pemilihan</h2>
+            <p>
+                <i>
+                Topik argumentasi yang saya angkat adalah pentingnya internship curriculum (IC) dalam membekali siswa dengan pengalaman kerja nyata, khususnya di bidang tata boga. Saya memilih topik ini karena melalui pengalaman magang, saya dapat merasakan langsung bagaimana dunia kerja berjalan, mulai dari proses produksi hingga kerja sama tim. Hal ini membuat pembelajaran menjadi lebih nyata dan bermanfaat untuk persiapan masa depan.
+                </i>
+            </p>
+
+            <h2>Harapan dari Video</h2>
+            <p>
+                <i>
+Melalui video ini, saya berharap penonton dapat memahami pentingnya internship curriculum sebagai sarana pembelajaran yang tidak hanya berfokus pada teori, tetapi juga pengalaman nyata. Selain itu, saya berharap video ini dapat memberikan inspirasi kepada siswa lain untuk lebih semangat dalam belajar dan berani mencoba hal baru demi mempersiapkan masa depan.
+                </i>
+            </p>
+
+            <h2>Refleksi, Kesan, dan Pesan</h2>
+            <p>
+                <i>
+Selama mengikuti ujian praktik ini dan belajar di kelas IX, saya mendapatkan banyak pengalaman dan pelajaran berharga, baik dari segi pengetahuan maupun keterampilan. Saya belajar untuk lebih disiplin, bertanggung jawab, serta mampu bekerja sama dengan orang lain.
+
+Kesan saya selama belajar di SMPIT Al Haraki sangat menyenangkan karena didukung oleh lingkungan yang positif serta guru-guru yang sabar dan membimbing. Banyak pengalaman berharga yang tidak akan saya lupakan.
+
+Pesan saya, semoga SMPIT Al Haraki terus berkembang dan tetap menjadi tempat belajar yang nyaman serta inspiratif bagi para siswa. Untuk teman-teman, tetap semangat dalam belajar dan jangan takut untuk mencoba hal baru demi meraih cita-cita.
+                </i>
+            </p>
+
+        </div>
+
+        <!-- BAGIAN KANAN: GRID GAMBAR (BEBAS KREATIF) -->
+        <div class="content-gallery">
+            <img src="https://image2url.com/r2/default/images/1775740095610-4f4b2a20-adeb-4dc9-8e62-b5854d6d99d8.jpeg" alt="gambar bebas 1"> 
+            <img src="https://image2url.com/r2/default/images/1775740288537-bf34564b-8d6f-49ea-84d9-1fbc7b121841.jpeg" alt="Gambar Bebas 2">
+            <img src="https://image2url.com/r2/default/images/1775740636666-21442b08-c3d6-4dd4-9072-adb6b24745c4.jpeg" alt="Gambar Bebas 3">
+            <img src="https://image2url.com/r2/default/images/1775740942581-7490072c-7212-4419-87bd-6d5db59232f4.jpeg" alt="Gambar Bebas 4">
+        </div>
+
+    </div>
+
+</div>
+
+<footer>
+    <p>Ujian Praktik Terintegrasi | SMPIT Al Haraki | Shaquilla putri adriansyah@2026 </p>
+</footer>
+
+</body>
+</html>
